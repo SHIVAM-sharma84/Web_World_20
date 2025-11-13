@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Web World</title>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- HEADER -->
+  <header class="w-full bg-blue-800 md:bg-blue-400 text-white font-bold rounded-b-xl shadow-lg">
+    <div class="flex items-center justify-between px-4 h-20 md:h-24">
+      
+      <!-- Logo & Title -->
+      <div class="flex items-center">
+        <img src="https://assets.thehansindia.com/h-upload/2022/04/29/1289572-web.webp"
+             alt="Logo"
+             class="h-14 md:h-20 object-cover rounded-lg">
+        <h1 class="text-2xl md:text-4xl pl-4 font-[Algerian]">Web World</h1>
+      </div>
+
+      <!-- Hamburger Button (mobile) -->
+      <button class="block md:hidden mr-2" id="btn">
+        <i class="fa-solid fa-bars fa-2xl text-white"></i>
+      </button>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="hidden md:flex justify-center bg-black text-xl font-semibold py-3 space-x-10" id="list">
+      <a href="#home" class="hover:text-red-400 transition">Home</a>
+      <a href="#services" class="hover:text-red-400 transition">Sample</a>
+      <a href="#contact" class="hover:text-red-400 transition">Contact</a>
+    </nav>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="text-white text-center p-5 py-20" style="background: linear-gradient(to right,#3F51B5,#00897B);" id="home">
+    <div class="mr-3">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6">Build Your Dream Website With Us 🚀</h1>
+    <h3 class="text-lg md:text-xl mb-10">We design modern, responsive, and affordable websites for startups, students, and small businesses.</h3>
+    
+      <button class="border-4 border-white px-8 py-3 rounded-5g hover:bg-white hover:text-indigo-600 transition font-semibold">
+        <a href="#contact">Get a Free Query</a>
+      </button>
+      <button class="border-4 border-white px-8 py-3 m-10 rounded-5g hover:bg-white hover:text-indigo-600 transition font-semibold">
+        <a href="#project">View Our Work</a>
+      </button></div>
+  </main>
+<br>
+<!--over services-->
+  <main class="font-bold ">
+    <h1 class="text-4xl text-center animate-bounce" id="services">Our Services</h1>
+  <br><br>
+  <div class="md:flex md:ml-40 ml-10">
+    <div class="border-2 rounded-2xl w-52 p-5 mx-20 border-solid shadow-[0_35px_35px_rgba(0,0,0,0.25)]"><h1 class="text-blue-600">Business Websites</h1>
+<h5>Create stunning websites for local shops, agencies, or companies with SEO and mobile-friendly design.</h5></div><br><br>
+    <div class="border-2 rounded-2xl w-52 p-5 mx-20 border-solid shadow-[0_35px_35px_rgba(0,0,0,0.25)]"><h1 class="text-violet-700">E-Commerce Stores</h1>
+Launch your online store with product pages, payments, and order management systems.</div>
+    <div></div><br><br>
+    <div class="border-2 rounded-2xl w-52 p-5 mx-20 border-solid shadow-[0_35px_35px_rgba(0,0,0,0.25)]"><h1 class="text-blue-800"> Portfolio & Personal Sites</h1>
+Build your online identity with creative, interactive personal portfolios or resumes.</div></div>
+  
+  <!--Our project-->
+  </main>
+  <br><br>
+  <main class="bg-gray-300 shadow-[0_35px_35px_rgba(1,0,0,0.25)] md:h-96" id="project">
+    <br><br>
+  <br>
+    <h1 class="text-center text-2xl md:text-4xl font-bold text-black animate-bounce">Our Recent Projects</h1><br><br>
+    <div class="md:flex justify-center items-center ml-14 md:gap-20"><div class="border-2 rounded-2xl p-4 w-72 h-44 ">
+      <img src="https://hctpl.org/wp-content/uploads/2024/03/html-tagst.jpg" alt="" class="h-24 ml-10"><br>
+      <a href="https://shivam-sharma84.github.io/html/"><h1 class="text-center text-xl"><b>HTML TUTORIAL</b></h1></a></div><br><br>
+    <div class="border-2 rounded-2xl p-4 w-72 h-44 "><img src="https://www.shutterstock.com/image-photo/wooden-blocks-words-learn-something-260nw-2227051575.jpg" alt="" class=" h-24 ml-14"><br><a href="https://learn-soming-new.netlify.app/"><h1 class="text-center text-xl"><b>Learn Every Thing</b></h1></a></div><br><br>
+    <div class="border-2 rounded-2xl p-4 w-72 h-44"> <img src="https://miro.medium.com/1*3IcLSFuT8PQg4cUBaRXH1A.png" alt="" class="h-24 ml-10"><br>
+  <a href="https://shivam-sharma84.github.io/Python/" class="text-center text-xl"><h1><b>PYTHON TUTORIAL</b></h1></a></div><br><br>
+  </div></main>
+  <br><br>
+  <!--Contact form-->
+  <footer class="text-white  border-4 rounded-2xl mr-3"  style="background: linear-gradient(to right,  #3F51B5  , #00897B);"  id="contact"><br><br>
+    <h1 class="text-center text-2xl font-bold md:text-4xl">Inquiary</h1><br> <br>
+    <div class=" justify-center items-center flex ">
+      
+    <form method="POST" action="https://formsubmit.co/e428d9307a0a345b3f4d38fbcfde07a4">
+      <br>
+      <input type="text" name="Name" id="" placeholder="Your name" class="border-4 bg-white rounded-2xl text-center text-black pl-4 pr-4 pt-2 pb-2 w-96-">
+      <br><br>
+      <input type="number" name="Mobile" id="" placeholder="Contact no" class="border-4 bg-white rounded-2xl text-center pl-4 pr-4 pt-2 pb-2 text-black">
+      <br><br>
+      <input type="email" name="" id="" placeholder="Email" class="border-4 bg-white rounded-2xl text-center pl-4 pr-4 pt-2 pb-2 text-black">
+      <br><br>
+      <input type="text" name="" id="" placeholder="State name" class="border-4 bg-white rounded-2xl text-center pl-4 pr-4 pt-2 pb-2 text-black">
+      <br><br>
+      <input type="submit" name="Submit" id="" onclick="showAlert()" required class="border-4 rounded-2xl text-center pl-4 pr-4 pt-1 pb-1 bg-green-400 hover:bg-green-700 animate-pulse" >
+      <input type="reset" name="" id=""  required class="border-4 rounded-2xl text-center pl-4 pr-4 pt-1 pb-1 bg-red-500 hover:bg-red-700 ml-10 ">
+  </select>
+    </form>
+  </div>
+  <br><br>
+  </footer>
+
+  <!--Last footer-->
+<footer style="background: linear-gradient(to right, #0d47a1, #512da8); color: white; padding: 40px 0; text-align: center; font-family: 'Poppins', sans-serif;">
+  <div style="max-width: 1100px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-around; gap: 30px;">
+
+    <!-- About -->
+    <div style="flex: 1 1 250px;">
+      <h3 style="margin-bottom: 15px;">About Us</h3>
+      <p style="color: #ddd; line-height: 1.6;">
+        We are a creative web development agency helping businesses grow online with stunning, responsive, and SEO-friendly websites.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div style="flex: 1 1 200px;">
+      <h3 style="margin-bottom: 15px;">Quick Links</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#home" style="color: #ddd; text-decoration: none;">Home</a></li>
+        <li><a href="#services" style="color: #ddd; text-decoration: none;">Services</a></li>
+        
+        <li><a href="#contact" style="color: #ddd; text-decoration: none;">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div style="flex: 1 1 250px;">
+      <h3 style="margin-bottom: 15px;">Contact Us</h3>
+      <p style="color: #ddd; margin: 5px 0;">📞 +91 98215 85083</p>
+      <p style="color: #ddd; margin: 5px 0;">✉️ shivam44000@gamil.com</p>
+      <p style="color: #ddd; margin: 5px 0;">📍 Delhi, India</p>
+    </div>
+
+    <!-- Social Media -->
+    <div style="flex: 1 1 200px;">
+      <h3 style="margin-bottom: 15px;">Follow Us</h3>
+      <a href="#" style="color: white; margin: 0 8px; font-size: 22px;"><i class="fab fa-facebook"></i></a>
+      <a href="#" style="color: white; margin: 0 8px; font-size: 22px;"><i class="fab fa-instagram"></i></a>
+      <a href="#" style="color: white; margin: 0 8px; font-size: 22px;"><i class="fab fa-linkedin"></i></a>
+      <a href="#" style="color: white; margin: 0 8px; font-size: 22px;"><i class="fab fa-twitter"></i></a>
+    </div>
+
+  </div>
+
+  <hr style="margin: 30px auto; width: 80%; border: 0.5px solid #666;">
+
+  <p style="font-size: 14px; color: #bbb;">
+    © 2025 <strong>WEB WORLD</strong>. All Rights Reserved. | Designed by <strong>Shivam</strong>
+  </p>
+</footer>
+
+  
+
+  <!-- SCRIPT -->
+  <script>
+    var btn = document.getElementById("btn");
+    var list = document.getElementById("list");
+
+    btn.onclick = function() {
+      if (list.style.display === "none") {
+        list.style.display = "block";
+      } else {
+        list.style.display = "none";
+      }
+    };
+
+    function showForm() {
+      const form = document.getElementById('feedbackForm');
+      form.style.display = form.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
